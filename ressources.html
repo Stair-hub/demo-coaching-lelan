@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ressources &amp; articles — L'Élan, coaching de vie à Bruxelles</title>
+  <meta name="description" content="Articles et ressources gratuites sur la reconversion, l'énergie au quotidien et les limites personnelles, par Claire Deneve, coach de vie à Bruxelles.">
+  <meta property="og:title" content="Ressources & articles — L'Élan">
+  <meta property="og:description" content="Des articles concrets pour avancer : reconversion, énergie, limites personnelles.">
+  <meta property="og:image" content="https://images.unsplash.com/photo-1499750310107-5fef28a66643?w=1200&q=80">
+  <meta property="og:type" content="website">
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header class="header">
+    <div class="header-inner">
+      <a href="index.html" class="logo" aria-label="L'Élan — Accueil">
+        <img src="assets/logo.svg" alt="L'Élan — Coaching de vie" width="240" height="64">
+      </a>
+      <button class="burger" aria-label="Ouvrir le menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="nav" aria-label="Navigation principale">
+        <a href="index.html">Accueil</a>
+        <a href="approche.html">Mon approche</a>
+        <a href="ressources.html" aria-current="page">Ressources</a>
+        <a href="contact.html">Contact</a>
+        <a href="contact.html#rendez-vous" class="btn btn-principal">Prendre rendez-vous</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <div class="bandeau-page rose">
+      <div class="conteneur">
+        <svg class="ornement" viewBox="0 0 34 34" aria-hidden="true"><path d="M27 13 A11 11 0 1 0 16 27" fill="none" stroke="#3E5C4D" stroke-width="2.5" stroke-linecap="round"/></svg>
+        <h1>Ressources pour avancer</h1>
+        <p>Des articles courts et concrets, à lire avec une tasse de thé, pour nourrir votre réflexion entre deux séances — ou avant la première.</p>
+      </div>
+    </div>
+
+    <section>
+      <div class="conteneur">
+        <div class="articles">
+          <article class="article-carte reveal">
+            <img data-img="article1" src="" alt="Bureau avec carnet, café et lumière du matin, ambiance réflexion" loading="lazy">
+            <div class="article-carte-corps">
+              <span class="tag">Reconversion</span>
+              <h3>5 questions à se poser avant une reconversion</h3>
+              <p>Changer de métier ne se décide pas sur un coup de tête — ni ne se remet éternellement à demain. Ces cinq questions vous aident à y voir clair avant de sauter le pas.</p>
+              <a class="lien-article" href="article-reconversion.html">Lire l'article →</a>
+            </div>
+          </article>
+
+          <article class="article-carte reveal">
+            <img data-img="article2" src="" alt="Moment calme du matin, étirement face à la fenêtre" loading="lazy">
+            <div class="article-carte-corps">
+              <span class="tag">Énergie</span>
+              <h3>Comment retrouver son énergie le matin</h3>
+              <p>Non, tout ne se joue pas à 5&nbsp;h du matin. Trois ajustements simples — et réalistes — pour commencer la journée avec de l'élan plutôt qu'avec un soupir.</p>
+              <a class="lien-article" href="article-reconversion.html" aria-label="Lire l'article Comment retrouver son énergie le matin (démo : renvoie vers l'article exemple)">Lire l'article →</a>
+            </div>
+          </article>
+
+          <article class="article-carte reveal">
+            <img data-img="article3" src="" alt="Table sereine avec tasse de thé, symbole de temps pour soi" loading="lazy">
+            <div class="article-carte-corps">
+              <span class="tag">Limites</span>
+              <h3>Fixer des limites sans culpabiliser</h3>
+              <p>Dire non, c'est aussi dire oui à autre chose. Pourquoi la culpabilité s'invite-t-elle, et comment poser des limites claires tout en préservant vos relations&nbsp;?</p>
+              <a class="lien-article" href="article-reconversion.html" aria-label="Lire l'article Fixer des limites sans culpabiliser (démo : renvoie vers l'article exemple)">Lire l'article →</a>
+            </div>
+          </article>
+        </div>
+
+        <!-- ===== Newsletter (décorative, sans backend) ===== -->
+        <div class="newsletter reveal">
+          <div>
+            <h2 style="font-size:1.5rem;">La lettre de L'Élan</h2>
+            <p style="margin-bottom:0;">Un e-mail par mois, avec un exercice concret et une lecture inspirante. Pas de spam, désinscription en un clic.</p>
+          </div>
+          <div>
+            <form id="form-newsletter">
+              <label for="newsletter-email" class="visually-hidden" style="position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);">Votre adresse e-mail</label>
+              <input type="email" id="newsletter-email" placeholder="Votre adresse e-mail" required>
+              <button type="submit" class="btn btn-principal">Je m'inscris</button>
+            </form>
+            <p class="message-confirmation" role="status" style="margin-top:14px;">Merci&nbsp;! Vous êtes bien inscrit·e. (Démonstration&nbsp;: aucune donnée n'a été envoyée.)</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="conteneur">
+      <div class="footer-grille">
+        <div>
+          <img class="logo-footer" src="assets/logo.svg" alt="L'Élan — Coaching de vie" width="240" height="64">
+          <p>Coaching de vie à Bruxelles pour retrouver clarté, confiance et équilibre dans les moments de transition.</p>
+        </div>
+        <div>
+          <h3>Navigation</h3>
+          <ul>
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="approche.html">Mon approche</a></li>
+            <li><a href="ressources.html">Ressources</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3>Contact</h3>
+          <ul>
+            <li>Rue des Tilleuls 24, 1180 Bruxelles</li>
+            <li><a href="mailto:bonjour@lelan-coaching.be">bonjour@lelan-coaching.be</a></li>
+            <li>+32 2 000 00 00</li>
+            <li style="margin-top:12px;"><a href="mentions-legales.html">Mentions légales</a></li>
+            <li><a href="politique-confidentialite.html">Politique de confidentialité</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bas">
+        <span>© 2026 L'Élan — Coaching de vie. Personnage et activité fictifs.</span>
+        <span class="badge-demo">Site fictif — Démonstration réalisée par <a href="[MON_URL]">[MON_NOM]</a></span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/images.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

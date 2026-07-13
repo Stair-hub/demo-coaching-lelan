@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 64" width="240" height="64" role="img" aria-label="L'Élan — Coaching de vie">
+  <!-- Pictogramme : cercle ouvert (l'élan, le mouvement) + jeune pousse -->
+  <g transform="translate(6,6)">
+    <path d="M46 26 A20 20 0 1 0 26 46" fill="none" stroke="#3E5C4D" stroke-width="3" stroke-linecap="round"/>
+    <path d="M26 34 C26 26 30 20 38 18 C38 26 34 32 26 34 Z" fill="#C08A72"/>
+    <path d="M26 34 L26 46" fill="none" stroke="#C08A72" stroke-width="3" stroke-linecap="round"/>
+  </g>
+  <!-- Nom -->
+  <text x="70" y="34" font-family="'Cormorant Garamond', Georgia, serif" font-size="26" font-weight="600" fill="#2F3531">L&#8217;Élan</text>
+  <text x="70" y="52" font-family="'Nunito', Arial, sans-serif" font-size="11" letter-spacing="2.5" fill="#3E5C4D">COACHING DE VIE</text>
+</svg>
