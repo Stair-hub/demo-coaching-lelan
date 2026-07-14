@@ -48,38 +48,12 @@
       <div class="conteneur">
         <div class="contact-grille">
 
-          <!-- ===== Calendrier de réservation (démo) ===== -->
-          <div class="bloc-blanc reveal">
-            <h2 style="font-size:1.6rem;">Réserver une séance découverte</h2>
-            <p>Choisissez un jour disponible, puis un créneau. La séance dure 45&nbsp;minutes et se déroule sur place ou en visio.</p>
-
-            <div class="calendrier-entete">
-              <h3 id="calendrier-mois">Chargement…</h3>
-            </div>
-            <div class="calendrier-grille" id="calendrier-grille" role="grid" aria-label="Calendrier des disponibilités"></div>
-            <div class="legende">
-              <span><span class="pastille pastille-dispo"></span> Disponible</span>
-              <span><span class="pastille pastille-indispo"></span> Indisponible</span>
-            </div>
-
-            <div class="creneaux" id="creneaux" hidden>
-              <h3 style="font-size:1.15rem;">Créneaux du <span id="date-choisie"></span></h3>
-              <div class="creneaux-liste" id="creneaux-liste"></div>
-
-              <form class="reservation-form" id="form-reservation">
-                <p id="recap-rdv" style="font-weight:700;color:var(--vert-profond);"></p>
-                <div class="champ">
-                  <label for="rdv-nom">Votre nom</label>
-                  <input type="text" id="rdv-nom" name="nom" required autocomplete="name">
-                </div>
-                <div class="champ">
-                  <label for="rdv-email">Votre e-mail</label>
-                  <input type="email" id="rdv-email" name="email" required autocomplete="email">
-                </div>
-                <button type="submit" class="btn btn-principal">Confirmer le rendez-vous</button>
-              </form>
-              <p class="message-confirmation" id="confirmation-rdv" role="status"></p>
-            </div>
+          <!-- ===== Calendrier de réservation Calendly ===== -->
+          <div class="bloc-blanc reveal" style="padding: 0;">
+            <!-- Début de widget en ligne Calendly -->
+            <div class="calendly-inline-widget" data-url="https://calendly.com/stairia7/30min?hide_event_type_details=1&hide_gdpr_banner=1" style="min-width:320px;height:650px;"></div>
+            <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
+            <!-- Fin de widget en ligne Calendly -->
           </div>
 
           <!-- ===== Formulaire de contact + coordonnées ===== -->
